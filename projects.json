@@ -1,30 +1,12 @@
 {
   "startups": [
     {
-      "name": "NeuroSynthetix",
+      "name": "NeuroVision",
       "tagline": "Synthetic Data & Custom LLM Fine-Tuning",
       "description": "Enterprise-grade synthetic data generation platform designed for medical and legal compliance. Fine-tuned specialized models that achieve 99.8% semantic accuracy while remaining 100% compliant with privacy regulations.",
       "impact": "Generated 50B+ synthetic clinical tokens; reduced model training data cost by 70% for Fortune 500 partners.",
       "tech": ["Python", "PyTorch", "Transformers", "FastAPI", "React", "Docker"],
       "logo": "🧬",
-      "link": "#"
-    },
-    {
-      "name": "CognitiveGrid",
-      "tagline": "Distributed Edge AI Orchestration",
-      "description": "A decentralized grid network enabling edge devices, IoT sensors, and mobile devices to collaboratively run split-inference sub-billion parameter machine learning models in real-time.",
-      "impact": "Deployed across 12,000+ nodes; reduced latency for local ML executions from 180ms to 12ms.",
-      "tech": ["Rust", "WASM", "WebRTC", "C++", "TensorFlow Lite", "Kubernetes"],
-      "logo": "🌐",
-      "link": "#"
-    },
-    {
-      "name": "Web3Intelligence",
-      "tagline": "Decentralized Financial Analytics",
-      "description": "Real-time auditing platform merging smart contract event logs with deep learning predictive models to autonomously detect and stop flash-loan attacks and decentralized pool manipulations.",
-      "impact": "Protected $120M+ TVL (Total Value Locked); flagged 34 zero-day exploits before block execution.",
-      "tech": ["Solidity", "Go", "Python", "GraphQL", "Next.js", "AWS"],
-      "logo": "🔒",
       "link": "#"
     }
   ],
@@ -36,7 +18,7 @@
       "description": "Deep learning architecture built for galaxy cluster segmentation and noise reduction in low-light celestial imaging. Achieved state-of-the-art segmentation maps on Hubble Deep Field subsets.",
       "tech": ["PyTorch", "U-Net", "CUDA", "OpenCV"],
       "image": "🧬",
-      "github": "https://github.com",
+      "github": "https://github.com/VivekBabar",
       "demo": "https://demo.com"
     },
     {
@@ -46,7 +28,7 @@
       "description": "A high-performance Rust framework compiling web applications to WASM, featuring auto-syncing distributed state machines and immediate reactivity without virtual DOM overhead.",
       "tech": ["Rust", "WASM", "WebSockets", "CSS Grid"],
       "image": "🌐",
-      "github": "https://github.com",
+      "github": "https://github.com/VivekBabar",
       "demo": "https://demo.com"
     },
     {
@@ -56,7 +38,7 @@
       "description": "A real-time compute-constrained computer vision suite deployed on drone microcontrollers for spatial mapping, obstacle avoidance, and optical flow estimation in GPS-denied environments.",
       "tech": ["C++", "TensorRT", "YOLOv8", "ROS2"],
       "image": "👁️",
-      "github": "https://github.com",
+      "github": "https://github.com/VivekBabar",
       "demo": "https://demo.com"
     },
     {
@@ -66,7 +48,7 @@
       "description": "An autonomous AI software engineering agent that parses code directories, writes comprehensive unit tests, resolves build issues, and optimizes slow algorithms completely in the background.",
       "tech": ["Node.js", "GPT-4 API", "LangChain", "Docker"],
       "image": "🤖",
-      "github": "https://github.com",
+      "github": "https://github.com/VivekBabar",
       "demo": "https://demo.com"
     }
   ],
