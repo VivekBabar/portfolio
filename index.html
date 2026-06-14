@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vivek Babar | AI Engineer & Full Stack Developer Portfolio</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Futuristic personal portfolio of Vivek Babar, Co-founder, AI Engineer, and Full Stack Developer. Discover state-of-the-art startups, open-source AI projects, and technology guides.">
+  <meta name="keywords" content="Vivek Babar, AI Engineer, Machine Learning, Deep Learning, Full Stack Developer, Startups, Web3, Rust, React, DevOps">
+  <meta name="author" content="Vivek Babar">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vivek Babar | AI Engineer & Full Stack Developer">
+  <meta property="og:description" content="Discover futuristic startups, AI models, and full-stack software development projects.">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630/03001e/00f0ff?text=Vivek+Babar+AI">
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 3D Canvas Background Container -->
+  <div id="three-container"></div>
+  <div class="ambient-fog"></div>
+
+  <!-- Header & Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">VIVEK BABAR</a>
+      <nav class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#startups">Startups</a></li>
+        <li><a href="#youtube">YouTube</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </nav>
+      <div class="nav-controls">
+        <button id="theme-toggle-btn" class="icon-btn" aria-label="Toggle Theme" title="Toggle Theme">
+          <!-- Icon injected dynamically by JS -->
+        </button>
+        <button class="menu-toggle" aria-label="Open Menu">
+          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home">
+    <div class="hero-content">
+      <span class="hero-tag">AI Engineer &amp; Full Stack Builder</span>
+      <h1 class="hero-name">Vivek Babar</h1>
+      <h2 class="hero-title">I am a <span id="typing-text">AI Engineer</span></h2>
+      <p class="hero-tagline">
+        Building Intelligent Systems &amp; Future Tech. Specializing in Deep Learning pipelines, distributed Edge AI computation, and high-performance Web Assembly frameworks.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="glow-btn-cyan">Explore Work</a>
+        <a href="#contact" class="glow-btn-purple">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I am an AI Engineer, Full Stack Developer, and technology entrepreneur driven by the vision of embedding cognitive intelligence into everyday software systems. My career spans training deep learning models on cluster architectures to writing zero-overhead compile-to-WASM web applications.
+        </p>
+        <p>
+          I actively research multi-modal architectures, edge inference distribution, and autonomous developer workflows. When I am not fine-tuning transformer layouts, I collaborate with startups or share tutorials on my tech YouTube channel.
+        </p>
+        <p>
+          My ultimate career vision is building distributed machine learning grids that operate locally on end-user machines, guaranteeing absolute privacy, ultra-low latency, and democratized access to future AI tech.
+        </p>
+      </div>
+      <div class="about-cards">
+        <div class="about-fact glass-container">
+          <span class="fact-icon">🧬</span>
+          <h3 class="fact-title">AI Architect</h3>
+          <p class="fact-desc">Finetuning, neural vision, and custom LLM inference pipelines.</p>
+        </div>
+        <div class="about-fact glass-container">
+          <span class="fact-icon">🌐</span>
+          <h3 class="fact-title">WASM &amp; Web3</h3>
+          <p class="fact-desc">Building fast, decentralized systems using Rust and Solidity.</p>
+        </div>
+        <div class="about-fact glass-container">
+          <span class="fact-icon">🚀</span>
+          <h3 class="fact-title">Startup Founder</h3>
+          <p class="fact-desc">Co-founded 3 tech ventures addressing data and edge computing.</p>
+        </div>
+        <div class="about-fact glass-container">
+          <span class="fact-icon">📺</span>
+          <h3 class="fact-title">Educator</h3>
+          <p class="fact-desc">Creating developer tutorials on YouTube for AI &amp; systems code.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="container">
+    <h2 class="section-title">Core Competencies</h2>
+    <div class="skills-grid">
+      
+      <!-- AI Category -->
+      <div class="skills-category glass-container">
+        <h3>Artificial Intelligence</h3>
+        
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>AI Development &amp; LLMs</span>
+            <span>95%</span>
+          </div>
+          <div class="skill-bar-container">
+            <div class="skill-bar" style="width: 95%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Machine Learning &amp; Math</span>
+            <span>90%</span>
+          </div>
+          <div class="skill-bar-container">
+            <div class="skill-bar" style="width: 90%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Deep Learning (PyTorch)</span>
+            <span>88%</span>
+          </div>
+          <div class="skill-bar-container">
+            <div class="skill-bar" style="width: 88%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Computer Vision (YOLO/OpenCV)</span>
+            <span>85%</span>
+          </div>
+          <div class="skill-bar-container">
+            <div class="skill-bar" style="width: 85%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full Stack Category -->
+      <div class="skills-category glass-container">
+        <h3>Systems &amp; DevOps</h3>
+        
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Full Stack Development (Node/React/Rust)</span>
+            <span>92%</span>
+          </div>
+          <div class="skill-bar-container">
+            <div class="skill-bar" style="width: 92%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Docker &amp; Kubernetes</span>
+            <span>82%</span>
+          </div>
+          <div class="skill-bar-container">
+            <div class="skill-bar" style="width: 82%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>CI/CD Pipelines (Jenkins/GitHub Actions)</span>
+            <span>80%</span>
+          </div>
+          <div class="skill-bar-container">
+            <div class="skill-bar" style="width: 80%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Cloud Infrastructure (AWS)</span>
+            <span>85%</span>
+          </div>
+          <div class="skill-bar-container">
+            <div class="skill-bar" style="width: 85%"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container">
+    <h2 class="section-title">Open Source Systems</h2>
+    <div class="projects-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="ai">AI / CV Models</button>
+      <button class="filter-btn" data-filter="web">Web &amp; Rust</button>
+    </div>
+    <div class="projects-grid" id="projects-grid">
+      <!-- Injected dynamically by app.js -->
+    </div>
+  </section>
+
+  <!-- Startups Section -->
+  <section id="startups" class="container">
+    <h2 class="section-title">Co-Founded Ventures</h2>
+    <div class="startups-grid" id="startups-grid">
+      <!-- Injected dynamically by app.js -->
+    </div>
+  </section>
+
+  <!-- YouTube Section -->
+  <section id="youtube" class="container">
+    <h2 class="section-title">Tech Educational Channel</h2>
+    <div class="youtube-container glass-container">
+      <div class="youtube-showcase">
+        <!-- Embedded YouTube video placeholder/embed -->
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vivek Babar Tech Guide" allowfullscreen></iframe>
+      </div>
+      <div class="youtube-info">
+        <h3 class="neon-text-blue">Building Future Systems</h3>
+        <p>
+          I publish videos covering intermediate and advanced engineering workflows, including custom dataset collection, local LLM pipeline deployments, WebAssembly optimization patterns, and distributed backend setups. My channel helps fellow engineers transition from standard web concepts into advanced AI orchestration.
+        </p>
+        <a href="https://youtube.com" target="_blank" class="glow-btn-cyan">Subscribe on YouTube</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="container">
+    <h2 class="section-title">Career Chronology</h2>
+    <div class="resume-grid">
+      
+      <!-- Experience -->
+      <div class="resume-column">
+        <h3>Professional Work</h3>
+        <div class="timeline" id="timeline-experience">
+          <!-- Injected dynamically by app.js -->
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="resume-column">
+        <h3>Academic Path</h3>
+        <div class="timeline" id="timeline-education">
+          <!-- Injected dynamically by app.js -->
+        </div>
+      </div>
+
+      <!-- Download Button -->
+      <div class="resume-actions">
+        <a href="#" class="glow-btn-purple">Download Full Resume (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container">
+    <h2 class="section-title">Initiate Contact</h2>
+    <div class="contact-grid">
+      
+      <div class="contact-info">
+        <div class="contact-card glass-container">
+          <div class="contact-method">
+            <span class="contact-icon">📧</span>
+            <div>
+              <h4>Secure Email</h4>
+              <p>vivek@futuretech.ai</p>
+            </div>
+          </div>
+          <div class="contact-method">
+            <span class="contact-icon">📍</span>
+            <div>
+              <h4>Location Node</h4>
+              <p>Mumbai / San Francisco</p>
+            </div>
+          </div>
+          <div class="contact-method">
+            <span class="contact-icon">🛡️</span>
+            <div>
+              <h4>PGP Key</h4>
+              <p>0x9FA8C...D34B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://linkedin.com" target="_blank" class="social-btn" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="https://github.com" target="_blank" class="social-btn" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+          <a href="https://youtube.com" target="_blank" class="social-btn" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form-container glass-container">
+        <form class="contact-form" id="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <input type="text" id="name" name="name" class="form-input" placeholder=" " required autocomplete="off">
+            <label for="name" class="form-label">Ident Identity (Name)</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" class="form-input" placeholder=" " required autocomplete="off">
+            <label for="email" class="form-label">Node Vector (Email)</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" class="form-input" placeholder=" " required></textarea>
+            <label for="message" class="form-label">Transmission Body (Message)</label>
+          </div>
+          <button type="submit" class="glow-btn-cyan">Transmit Message</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- AI Chatbot Assistant Widget -->
+  <button id="chatbot-toggle-btn" class="chatbot-toggle-btn" aria-label="Open AI Assistant" title="Open AI Assistant">
+    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+    </svg>
+  </button>
+  
+  <div id="chatbot-widget" class="chatbot-widget glass-container">
+    <div class="chatbot-header">
+      <h3>
+        <span class="bot-icon">🤖</span>
+        <span>Neural Assistant</span>
+      </h3>
+      <button id="chatbot-close" class="chatbot-close" aria-label="Close Chat">&times;</button>
+    </div>
+    <div id="chatbot-messages" class="chatbot-messages">
+      <!-- Script populates with initial greeting -->
+    </div>
+    <div class="chatbot-input-area">
+      <form id="chatbot-form" class="chatbot-form">
+        <input type="text" id="chatbot-input" class="chatbot-input" placeholder="Say 'skills', 'startups', 'resume'..." autocomplete="off">
+        <button type="submit" class="chatbot-send-btn">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Three.js (For 3D effects) via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  
+  <!-- Interactive Webpage scripts -->
+  <script src="three-scene.js"></script>
+  <script src="voice.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

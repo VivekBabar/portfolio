@@ -1,0 +1,110 @@
+{
+  "startups": [
+    {
+      "name": "NeuroSynthetix",
+      "tagline": "Synthetic Data & Custom LLM Fine-Tuning",
+      "description": "Enterprise-grade synthetic data generation platform designed for medical and legal compliance. Fine-tuned specialized models that achieve 99.8% semantic accuracy while remaining 100% compliant with privacy regulations.",
+      "impact": "Generated 50B+ synthetic clinical tokens; reduced model training data cost by 70% for Fortune 500 partners.",
+      "tech": ["Python", "PyTorch", "Transformers", "FastAPI", "React", "Docker"],
+      "logo": "🧬",
+      "link": "#"
+    },
+    {
+      "name": "CognitiveGrid",
+      "tagline": "Distributed Edge AI Orchestration",
+      "description": "A decentralized grid network enabling edge devices, IoT sensors, and mobile devices to collaboratively run split-inference sub-billion parameter machine learning models in real-time.",
+      "impact": "Deployed across 12,000+ nodes; reduced latency for local ML executions from 180ms to 12ms.",
+      "tech": ["Rust", "WASM", "WebRTC", "C++", "TensorFlow Lite", "Kubernetes"],
+      "logo": "🌐",
+      "link": "#"
+    },
+    {
+      "name": "Web3Intelligence",
+      "tagline": "Decentralized Financial Analytics",
+      "description": "Real-time auditing platform merging smart contract event logs with deep learning predictive models to autonomously detect and stop flash-loan attacks and decentralized pool manipulations.",
+      "impact": "Protected $120M+ TVL (Total Value Locked); flagged 34 zero-day exploits before block execution.",
+      "tech": ["Solidity", "Go", "Python", "GraphQL", "Next.js", "AWS"],
+      "logo": "🔒",
+      "link": "#"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "AstraNet",
+      "category": "ai",
+      "description": "Deep learning architecture built for galaxy cluster segmentation and noise reduction in low-light celestial imaging. Achieved state-of-the-art segmentation maps on Hubble Deep Field subsets.",
+      "tech": ["PyTorch", "U-Net", "CUDA", "OpenCV"],
+      "image": "🧬",
+      "github": "https://github.com",
+      "demo": "https://demo.com"
+    },
+    {
+      "id": 2,
+      "title": "OmniFlow",
+      "category": "web",
+      "description": "A high-performance Rust framework compiling web applications to WASM, featuring auto-syncing distributed state machines and immediate reactivity without virtual DOM overhead.",
+      "tech": ["Rust", "WASM", "WebSockets", "CSS Grid"],
+      "image": "🌐",
+      "github": "https://github.com",
+      "demo": "https://demo.com"
+    },
+    {
+      "id": 3,
+      "title": "SentientEye",
+      "category": "ai",
+      "description": "A real-time compute-constrained computer vision suite deployed on drone microcontrollers for spatial mapping, obstacle avoidance, and optical flow estimation in GPS-denied environments.",
+      "tech": ["C++", "TensorRT", "YOLOv8", "ROS2"],
+      "image": "👁️",
+      "github": "https://github.com",
+      "demo": "https://demo.com"
+    },
+    {
+      "id": 4,
+      "title": "DevAgent.AI",
+      "category": "web",
+      "description": "An autonomous AI software engineering agent that parses code directories, writes comprehensive unit tests, resolves build issues, and optimizes slow algorithms completely in the background.",
+      "tech": ["Node.js", "GPT-4 API", "LangChain", "Docker"],
+      "image": "🤖",
+      "github": "https://github.com",
+      "demo": "https://demo.com"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2024 - Present",
+      "role": "Lead AI Architect & Co-Founder",
+      "company": "CognitiveGrid",
+      "type": "experience",
+      "description": "Pioneering distributed edge AI model deployment. Architected the main WebRTC P2P model split-inference protocol. Scaled node enrollment to 12K+ devices globally."
+    },
+    {
+      "year": "2022 - 2024",
+      "role": "Senior AI Engineer",
+      "company": "FutureTech Solutions",
+      "type": "experience",
+      "description": "Built customized LLM pipelines for customer service automation. Fine-tuned corporate code assistants. Optimized inference pipelines using TensorRT and vLLM, saving 42% in cloud computing bills."
+    },
+    {
+      "year": "2020 - 2022",
+      "role": "Full Stack & ML Developer",
+      "company": "Helix Labs",
+      "type": "experience",
+      "description": "Developed dynamic React dashboard interfaces coupled with Python microservices. Built real-time classification engines for genomic sequencing datasets. Scaled Kubernetes clusters."
+    },
+    {
+      "year": "2018 - 2020",
+      "role": "M.S. in Artificial Intelligence",
+      "company": "Stanford University",
+      "type": "education",
+      "description": "Specialized in Deep Learning and Computer Vision. Researched multi-modal fusion networks. Published 3 papers in CVPR and NeurIPS workshops."
+    },
+    {
+      "year": "2014 - 2018",
+      "role": "B.Tech in Computer Science",
+      "company": "IIT Bombay",
+      "type": "education",
+      "description": "Graduated with honors. Solid foundation in Algorithms, Operating Systems, Database Management Systems, and Machine Learning theory."
+    }
+  ]
+}
