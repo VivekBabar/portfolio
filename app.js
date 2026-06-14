@@ -518,40 +518,19 @@ function getFallbackData() {
     ],
     "timeline": [
       {
-        "year": "2024 - Present",
-        "role": "Lead AI Architect & Co-Founder",
-        "company": "CognitiveGrid",
+        "year": "1-jan-2026 - 1-jun-2026",
+        "role": "Oracle Database",
+        "company": "Vimerge",
         "type": "experience",
-        "description": "Pioneering distributed edge AI model deployment. Architected the main WebRTC P2P model split-inference protocol. Scaled node enrollment to 12K+ devices globally."
+        "description": "n Oracle Database Developer or Administrator manages, secures, and optimizes data storage and retrieval using SQL and PL/SQL"
       },
       {
-        "year": "2022 - 2024",
-        "role": "Senior AI Engineer",
-        "company": "FutureTech Solutions",
-        "type": "experience",
-        "description": "Built customized LLM pipelines for customer service automation. Fine-tuned corporate code assistants. Optimized inference pipelines using TensorRT and vLLM, saving 42% in cloud computing bills."
-      },
-      {
-        "year": "2020 - 2022",
-        "role": "Full Stack & ML Developer",
-        "company": "Helix Labs",
-        "type": "experience",
-        "description": "Developed dynamic React dashboard interfaces coupled with Python microservices. Built real-time classification engines for genomic sequencing datasets. Scaled Kubernetes clusters."
-      },
-      {
-        "year": "2018 - 2020",
-        "role": "M.S. in Artificial Intelligence",
-        "company": "Stanford University",
+        "year": "2023 - 2027",
+        "role": "Information Technology",
+        "company": "gh raisoni college of engineering pune",
         "type": "education",
-        "description": "Specialized in Deep Learning and Computer Vision. Researched multi-modal fusion networks. Published 3 papers in CVPR and NeurIPS workshops."
-      },
-      {
-        "year": "2014 - 2018",
-        "role": "B.Tech in Computer Science",
-        "company": "IIT Bombay",
-        "type": "education",
-        "description": "Graduated with honors. Solid foundation in Algorithms, Operating Systems, Database Management Systems, and Machine Learning theory."
-      }
+        "description": "Specialized in Deep Learning and Computer Vision. Researched multi-modal fusion networks"
+      }   
     ]
   };
 }
